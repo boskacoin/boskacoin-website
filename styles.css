@@ -1,0 +1,81 @@
+/* BoskaCoin Website Stylesheet
+   Licensed under the MIT License
+
+   https://github.com/boskacoin/boskacoin-website
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #222222;
+}
+p {
+    line-height: 1.6;
+    margin: 20px;
+}
+a {
+    color: #33c1ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    background-color: #ff5733;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    text-align: center;
+    list-style-position: inside;
+}
+ul {
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+}
+nav {
+    background-color: #222222;
+    padding: 10px;
+}
+nav a {
+    margin: 0 15px;
+    color: #ffffff;
+}
+nav a:hover {
+    color: #ff5733;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222222;
+    position: relative;
+    bottom: 0;
+}
+header h1 {
+    color: #cacaca;
+    margin: 0;
+}
